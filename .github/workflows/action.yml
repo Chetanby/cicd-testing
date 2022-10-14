@@ -29,5 +29,5 @@ jobs:
         destination_repo: 'Chetanby/cicd-testing-destination'
         destination_folder: 'test'
         user_email: 'chetu.by@gmail.com'
-        user_name: 'chetanby'
+        user_name: 'Chetanby'
         commit_msg: '[GHA] Update the test files.'
