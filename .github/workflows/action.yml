@@ -21,7 +21,7 @@ jobs:
       uses: actions/checkout@main
 
     - name: Pushes test folder
-      uses: Chetanby/cicd-testing-destination@master
+      uses: cicd-testing@master
       env:
         API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
       with:
