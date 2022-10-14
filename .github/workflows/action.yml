@@ -26,7 +26,7 @@ jobs:
         API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
       with:
         source_folder: '/'
-        destination_repo: 'Chetanby/cicd-testing-destination'
+        destination_repo: 'Chetanby/cicd-testing-destination@main'
         destination_folder: '/'
         user_email: 'chetu.by@gmail.com'
         user_name: 'chetanby'
