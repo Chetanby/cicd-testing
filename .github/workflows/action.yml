@@ -21,12 +21,12 @@ jobs:
       uses: actions/checkout@main
 
     - name: Pushes test folder
-      uses: Chetanby/cicd-testing
+      uses: Chetanby/cicd-testing@main
       env:
         API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
       with:
         source_folder: 'test'
-        destination_repo: 'Chetanby/cicd-testing-destination'
+        destination_repo: 'Chetanby/cicd-testing-destination@master'
         destination_folder: 'test'
         user_email: 'chetu.by@gmail.com'
         user_name: 'Chetanby'
